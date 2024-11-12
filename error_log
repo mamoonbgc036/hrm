@@ -1,0 +1,17 @@
+[10-Dec-2020 07:29:32 America/New_York] PHP Warning:  require(/home/fschrm/public_html/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/fschrm/public_html/public/index.php on line 34
+[10-Dec-2020 07:29:32 America/New_York] PHP Warning:  require(/home/fschrm/public_html/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/fschrm/public_html/public/index.php on line 34
+[10-Dec-2020 07:29:32 America/New_York] PHP Fatal error:  require(): Failed opening required '/home/fschrm/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/fschrm/public_html/public/index.php on line 34
+[23-Dec-2020 13:02:35 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/fschrm/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/fschrm/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'fschrm_user', 'hIa[0n5{BspH', Array)
+#1 /home/fschrm/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'fschrm_user', 'hIa[0n5{BspH', Array)
+#2 /home/fschrm/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/fschrm/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Databa in /home/fschrm/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 671
+[23-Dec-2020 14:18:47 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/fschrm/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/fschrm/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'fschrm_user', 'hIa[0n5{BspH', Array)
+#1 /home/fschrm/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'fschrm_user', 'hIa[0n5{BspH', Array)
+#2 /home/fschrm/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/fschrm/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Databa in /home/fschrm/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 671
